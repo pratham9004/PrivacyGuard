@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 PrivacyGuard — AI-Powered Privacy Policy Risk Analyzer
+🚀 Overview
 
-## Getting Started
+PrivacyGuard is a full-stack AI application that analyzes privacy policies, terms & conditions, and user agreements. It detects risky clauses, highlights dangerous keywords, calculates a risk score, and generates a detailed report with recommendations.
 
-First, run the development server:
+🧠 Features
 
-```bash
+AI-based Privacy Risk Analysis
+
+Risk Score + Grade + Level
+
+NLP Keyword Detection
+
+Red Flags Identification
+
+History of all scans
+
+Dashboard analytics
+
+PDF and TXT report downloads
+
+Firebase Authentication
+
+FastAPI AI backend
+
+Beautiful modern UI (Next.js + Tailwind + ShadCN)
+
+🏗 Tech Stack
+Frontend
+
+Next.js 14
+
+Tailwind CSS
+
+ShadCN UI
+
+Framer Motion
+
+Backend
+
+FastAPI (Python)
+
+NLP keyword scanner
+
+Optional Gemini / OpenAI AI support
+
+Database
+
+Firebase Firestore
+
+Firebase Authentication
+
+📂 Project Structure
+PrivacyGuard/
+├── frontend/     # Next.js App Router
+├── backend/      # FastAPI AI server
+└── README.md
+
+🛠 How to Run
+Run Frontend
+cd frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run Backend
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👤 Contributors
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pratham Chavda – Project Lead
 
-## Learn More
+Friend Name – NLP & Development Support
 
-To learn more about Next.js, take a look at the following resources:
+⭐ Add this README to your repo
+✅ STEP 2 — Add Screenshots Folder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create folder:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+/screenshots
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✔ Dashboard.png
+✔ Analysis.png
+✔ History.png
+✔ Report.png
+
+Then add screenshots section in README:
+
+## 📸 Screenshots
+![Dashboard](./screenshots/dashboard.png)
+![Analysis](./screenshots/analysis.png)
+
+✅ STEP 3 — Add a LICENSE File
+
+Use MIT License:
+
+Create file LICENSE with:
+
+MIT License
+
+Copyright (c) 2025 
+Permission is hereby granted…
+
+
+This makes repo look more professional.
+
+✅ STEP 4 — Add Tags to Repository
+
+On GitHub open repo → Right side panel → Topics (Add topics)
+Add:
+
+ai
+privacy
+nextjs
+fastapi
+nlp
+firebase
+fullstack
+
+
+This helps visibility.
+
+✅ STEP 5 — Add Your Friend as Collaborator
+
+Go to:
+
+Repository → Settings → Collaborators → Add Collaborator
+
+Enter your friend’s GitHub username.
+
+They will get an invite.
+
+🎉 Done!
+
+Your project will now look:
+
+Professional
+
+Clean
+
+Industry-level
+
+Ready for college submission
+
+Ready for your portfolio
